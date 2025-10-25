@@ -1,81 +1,79 @@
-Sprint Asia Case Study – M Dida Dejah Golfantara
+# 🧩 Sprint Asia Case Study – M Dida Dejah Golfantara
 
-This project is a submission for the Sprint Asia technical assessment.
-It is built using Go (Golang) for the backend API and ReactJS for the frontend interface.
+This project is a submission for the **Sprint Asia technical assessment**.  
+It is built using **Go (Golang)** for the backend API and **ReactJS** for the frontend interface.
 
-🚀 Tech Stack
+---
 
-Backend:
+## 🚀 Tech Stack
 
-Go 1.22+
+**Backend:**
+- Go 1.22+
+- Gin Framework
+- GORM ORM
+- SQL (MySQL/PostgreSQL)
+- Docker (optional)
 
-Gin Framework
+**Frontend:**
+- ReactJS (Vite)
+- Axios
+- TailwindCSS
 
-GORM ORM
+---
 
-SQL (MySQL/PostgreSQL)
+## 📂 Project Structure
 
-Docker (optional)
-
-Frontend:
-
-ReactJS (Vite)
-
-Axios
-
-TailwindCSS
-
-📂 Project Structure
 project-root/
 ├── backend/
-│   ├── main.go
-│   ├── go.mod
-│   └── ...other backend files
+│ ├── main.go
+│ ├── go.mod
+│ └── ...other backend files
 └── fe/
-    ├── package.json
-    ├── src/
-    └── ...other frontend files
+├── package.json
+├── src/
+└── ...other frontend files
 
-⚙️ Backend Setup
+yaml
+Copy code
 
-Navigate to the backend directory:
+---
 
-cd backend
+## ⚙️ Backend Setup
 
-
+1. Navigate to the backend directory:
+   ```bash
+   cd backend
 Install all dependencies:
 
+bash
+Copy code
 go mod tidy
-
-
 Run the application:
 
+bash
+Copy code
 go run .
-
-
 The backend will start on the configured port (e.g., http://localhost:8000).
 
 💻 Frontend Setup
-
 Navigate to the frontend directory:
 
+bash
+Copy code
 cd fe
-
-
 Install dependencies:
 
+bash
+Copy code
 npm install
-
-
 Run the application:
 
+bash
+Copy code
 npm run dev
-
-
 The frontend will start on http://localhost:5173 (by default).
 
 📘 Notes
-
 Ensure Go and Node.js are installed before running the project.
 
 You may use Docker for deployment or testing if preferred.
@@ -83,5 +81,4 @@ You may use Docker for deployment or testing if preferred.
 Feel free to reach out for clarification or feedback.
 
 👤 Author
-
 M Dida Dejah Golfantara
