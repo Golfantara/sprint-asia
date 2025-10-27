@@ -50,26 +50,22 @@ Copy code
 go mod tidy
 Run the application:
 
-bash
-Copy code
+```bash
 go run .
 The backend will start on the configured port (e.g., http://localhost:8000).
 
 💻 Frontend Setup
 Navigate to the frontend directory:
 
-bash
-Copy code
+```bash
 cd fe
 Install dependencies:
 
-bash
-Copy code
+```bash
 npm install
 Run the application:
 
-bash
-Copy code
+```bash
 npm run dev
 The frontend will start on http://localhost:5173 (by default).
 
