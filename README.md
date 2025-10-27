@@ -9,7 +9,7 @@ It is built using **Go (Golang)** for the backend API and **ReactJS** for the fr
 
 **Backend:**
 - Go 1.22+
-- Gin Framework
+- Echo Framework
 - GORM ORM
 - SQL (MySQL/PostgreSQL)
 - Docker (optional)
